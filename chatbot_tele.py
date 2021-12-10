@@ -6,7 +6,7 @@ import random
 import pickle
 from tensorflow.keras.models import load_model
 
-api = '5005431111:AAETzYF5ATOvq0VJG3duEOF957HyiXwRTlg'
+api = ''
 bot = telebot.TeleBot(api)
 
 with open("intents.json") as data_file:
