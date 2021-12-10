@@ -1,0 +1,39 @@
+{"intents": [
+    {"tag":"salam-formal",
+     "patterns":["Assalamualaikum","Assalamualaikum warahmatullahi wabarakatuh"],
+     "responses":["Waalaikumussalam, ada yang bisa saya bantu? :)", "Waalaikumussalam wa rahmatullahi wa barakatuh, ada yang bisa saya bantu? :)"]
+    },
+    {"tag":"salam-day",
+     "patterns":["Selamat Pagi", "Selamat Siang", "Selamat Sore", "Selamat Malam"],
+     "responses":["Halo selamat juga, ada yang bisa saya bantu kah? silahkan"]
+    },
+    {"tag": "salam-usual",
+     "patterns": ["Hai", "Hi", "Halo", "Permisi", "Salam", "Ping", "P","Test"],
+     "responses": ["Hai, ada yang bisa saya bantu?", "Halo selamat datang, ada yang bisa dibantu?"]
+    },
+    {"tag": "menu",
+     "patterns": ["Menu", "Sedia", "Ada apa", "Menyediakan", "Menyajikan", "Saji", "Apa aja"],
+     "responses": ["Baik, di restoran ini kami menyediakan menu aneka ragam seafood, Silahkan dipilih kak","Disini kami memiliki menu utama yaitu olahan aneka ragam seafood, silahkan order ya"]
+    },
+    {"tag": "pesan",
+     "patterns": ["Pesan", "Mesen", "Pilih", "Pesen", "Memesan", "Order", "Mau", "Ingin", "Pengen"],
+     "responses": ["Mau pesan berapa porsi?","Mau pesan berapa banyak?","Good Choice! Kira-kira mau pesan berapa porsi trus ada tambahan lagi gak?"]
+    },
+    {"tag": "jumlah",
+     "patterns": ["porsi", "seporsi", "1", "Satu", "2", "Dua", "3", "Tiga", "4", "Empat","Itu aja","Ini aja"],
+     "responses": ["Okay mohon ditunggu ya pesanannya", "Baik mohon ditunggu ya hidangannya"]
+    },
+    {"tag": "feedback1",
+     "patterns": ["Kurang sedap","Tidak sedap","Rasanya buruk", "Ngga sedap"],
+     "responses": ["Mohon maaf ya, Terimakasih atas masukan kamu, kedepannya kami akan lebih baik lagi dan bisa menyajikan hidangan yang lebih enak"]
+    },
+    {"tag": "feedback2",
+     "patterns": ["Sangat","Enak","Baik","Cukup","Sempurna","Luar biasa","Hidangan"],
+     "responses": ["Waahh termakasih atas good reviewnya, semoga kamu sangat suka ya, kedepannya kami akan lebih baik lagi melayani kamu"]
+    },
+    {"tag": "finish",
+     "patterns": ["Sudah","Selesai","Sampai jumpa","Bye","Terima Kasih"],
+     "responses": ["Terimkasih atas reviewnya, Semoga hidangan di restoran ini bisa membuat kamu puas","Terimakasih atas kunjungannya, Nanti kesini lagi ya"]
+    }
+  ]
+}
